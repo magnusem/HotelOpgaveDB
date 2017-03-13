@@ -58,6 +58,11 @@ namespace HotelOpgaveDB
 
 
 
+                //Indsæt dig selv som gæst i Guest Tabellen.
+
+
+
+
 
 
 
