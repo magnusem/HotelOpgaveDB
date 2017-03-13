@@ -22,7 +22,6 @@ namespace HotelOpgaveDB
 
 
 
-
                 var ListAlleKunder = from g in db.Guest
                                      select g;
 
