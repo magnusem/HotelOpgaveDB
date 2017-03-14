@@ -74,6 +74,19 @@ namespace HotelOpgaveDB
                 db.SaveChanges();
 
 
+                //Opret endnu en reservation på hotellet “Lucky Star” på lørdag
+                db.Booking.Add(new Booking
+                {
+                    Booking_id = 0,
+                    Hotel_No = 2,
+                    Date_From = new DateTime(2017, 03, 19),
+                    Date_To = new DateTime(2017, 03, 20),
+                    Room_No = 1
+                });
+
+                db.SaveChanges();
+
+
 
 
 
